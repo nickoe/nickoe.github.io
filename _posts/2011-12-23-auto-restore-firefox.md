@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 ---
 
 I usually shutsdown my computer with poweroff, whereby I do not have

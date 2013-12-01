@@ -1,6 +1,8 @@
 ---
 layout: post
+tags: linux
 ---
+
 If you are looking for a way to change the file encoding on a file in
 Linux, you have arrived at the right place. First you should check
 what exactly the encoding is on the file that is to be converted.

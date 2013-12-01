@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 ---
 This is a layout test page for CSS styling. Lorem ipsum dolor sit
 amet, consectetur adipiscing elit. Duis luctus massa ut est mattis, a

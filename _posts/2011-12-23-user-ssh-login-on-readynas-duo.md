@@ -1,6 +1,7 @@
 ---
 layout: post
 title: User SSH login on Readynas Duo
+tags: linux computing
 ---
 
 The ReadyNAS Duo i a two bay NAS machine from Netgear. To gain SSH

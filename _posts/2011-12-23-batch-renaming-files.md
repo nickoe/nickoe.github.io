@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 ---
 
 It could be desired to rename files that does not contain a suffix,
