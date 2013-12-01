@@ -24,7 +24,7 @@ color: rgb(153, 153, 153);
 #nav {
 padding-top: 9px;
 padding-bottom: 9px;
-height: 26px;
+height: auto;
 /*border-bottom: 6px solid rgb(136, 204, 0);*/
 text-align: center;
 display: block;
@@ -163,4 +163,31 @@ http://www.w3cplus.com/css3/pure-css3-ribbons
 	height: 0;
 	border: 24px solid hsla(200,80%,50%,0.8);
 	border-right-color: transparent;	
+}
+
+
+@media screen and (max-width:733px) {
+	.wrapper {
+		width: auto;
+	}
+	#ribbon-13 {
+		width: auto;
+		left:0px;
+		padding: 0 20px;
+		margin: 0 -20px 20px -20px;
+	}
+	#ribbon-13 h1 {
+		padding:4px 0;
+		line-height:1;
+	}
+	#ribbon-13::before,
+	#ribbon-13::after,
+	#ribbon-13 .ribbon-content:before,
+	#ribbon-13 .ribbon-content:after {
+		display:none;
+	}
+	#container {
+		margin:0;
+		padding:0;
+	}
 }
