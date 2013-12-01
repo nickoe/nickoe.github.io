@@ -1,9 +1,9 @@
 ---
 layout: default
-title: About
+title: About me and this site
+tags: hekj hej
 ---
 
-About
-=====
-
 This site is just yet another space on the internet
+
+{{ page.tags }}

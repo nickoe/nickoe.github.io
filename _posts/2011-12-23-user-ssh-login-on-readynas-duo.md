@@ -1,8 +1,8 @@
 ---
 layout: post
 title: User SSH login on Readynas Duo
-tags: computing linux
 ---
+
 The ReadyNAS Duo i a two bay NAS machine from Netgear. To gain SSH
 login access you have to install the `EnableRootSSH_1.0-x86.bin` from
 Netgear. Now it should be possible to login with the root user.
