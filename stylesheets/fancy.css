@@ -1,0 +1,166 @@
+@import url("fonts/hemi-head.css");
+
+h1, h2, h3 {
+	font-family: hemi-head, sans-serif;
+}
+
+/* Top menu */
+
+#nav a:hover {
+height: 80px;
+color: #fff;
+}
+
+#nav a {
+display: inline;
+padding: 10px;
+text-decoration: none;
+font-family: hemi-head, sans-serif;
+font-weight: bold;
+font-size: 18px;
+color: rgb(153, 153, 153);
+}
+
+#nav {
+padding-top: 9px;
+padding-bottom: 9px;
+height: 26px;
+/*border-bottom: 6px solid rgb(136, 204, 0);*/
+text-align: center;
+display: block;
+}
+
+
+
+
+/* Big ribbon
+http://www.w3cplus.com/css3/pure-css3-ribbons
+*/
+#ribbon-13 {
+	width: 729px;
+	 position: relative;
+	left: -48px;
+	 text-align: center;
+	 font-size: 30px!important;
+	 font-weight: bold;
+	 background: #d64b4b;
+	 background: -webkit-gradient(linear, left top, left bottom, from(#d64b4b), to(#ab2c2c));
+	 background: -webkit-linear-gradient(top, #d64b4b, #ab2c2c);
+	 background: -moz-linear-gradient(top, #d64b4b, #ab2c2c);
+	 background: -ms-linear-gradient(top, #d64b4b, #ab2c2c);
+	 background: -o-linear-gradient(top, #d64b4b, #ab2c2c);
+	 background-image: -ms-linear-gradient(top, #d64b4b 0%, #ab2c2c 100%);
+	 -webkit-box-shadow: rgba(000,000,000,0.3) 0 1px 1px;
+	 -moz-box-shadow: rgba(000,000,000,0.3) 0 1px 1px;
+	 box-shadow: rgba(000,000,000,0.3) 0 1px 1px;
+/*	 font-family: 'Helvetica Neue',Helvetica, sans-serif;*/
+	 margin: 0px auto 20px auto;
+	 }
+#ribbon-13 h1 {
+	 color: #801111;
+	 text-shadow: #d65c5c 0 1px 0;
+	 margin:0px;
+	 padding: 15px 10px;
+	 font-size: 1em;
+	 }
+#ribbon-13::before, 
+#ribbon-13::after {
+	 content: '';
+	 position: absolute;
+	 display: block;
+	 bottom: -1em;
+	 border: 1.5em solid #c23a3a;
+	 z-index: -1;
+	 }
+#ribbon-13::before {
+	 left: -2em;
+	 border-right-width: 1.5em;
+	 border-left-color: transparent;
+	 -webkit-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+	 -moz-box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+	 box-shadow: rgba(000,000,000,0.4) 1px 1px 1px;
+	 }
+#ribbon-13::after {
+	 right: -2em;
+	 border-left-width: 1.5em;
+	 border-right-color: transparent;
+	 -webkit-box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+	 -moz-box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+	 box-shadow: rgba(000,000,000,0.4) -1px 1px 1px;
+	 }
+#ribbon-13 .ribbon-content:before, 
+#ribbon-13 .ribbon-content:after {
+	 border-color: #871616 transparent transparent transparent;
+	 position: absolute;
+	 display: block;
+	 border-style: solid;
+	 bottom: -1em;
+	 content: '';
+	 }
+#ribbon-13 .ribbon-content:before {
+	 left: 0;
+	 border-width: 1em 0 0 1em;
+	 }
+#ribbon-13 .ribbon-content:after {
+	 right: 0;
+	 border-width: 1em 1em 0 0;
+	 }
+#ribbon-13 a {
+	color: #801111;
+}
+#ribbon-13 a::before{
+	content:"";
+	display:block;
+	margin-top:2px;
+	border-top: 1px dashed rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+#ribbon-13 a::after{
+	 margin-bottom:2px;
+	 border-top: 1px dashed rgba(0, 0, 0, 0.2);
+	 box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
+	 content: "";
+	 display:block;
+	 width: 100%;
+	 bottom: 0;
+	 left: 0;
+	 position: absolute;
+ }
+
+/* Half ribbon
+http://www.w3cplus.com/css3/pure-css3-ribbons
+*/
+#ribbon-3 {
+	font: bold 16px/48px hemi-head;
+	color: hsla(100,80%,20%,0.6);
+	text-shadow: 1px 0 0 hsla(20,50%,30%,0.6);
+	width: 300px;
+	padding: 0 0 0 30px;
+	position: relative;
+	left: -31px;
+	background: hsla(200,80%,50%,0.8);
+}
+#ribbon-3::before {
+	content:"";
+	position: absolute;
+	top:100%;
+	left:0px;
+	width:0;
+	height: 0;
+	border: 5px solid transparent;
+	border-color: hsla(200,70%,42%,0.8) hsla(200,70%,42%,0.8) transparent transparent;
+}
+#ribbon-3::after {
+	content:"";
+	position: absolute;
+	top:0;
+	left: 100%;
+	width:0;
+	height: 0;
+	border: 24px solid hsla(200,80%,50%,0.8);
+	border-right-color: transparent;	
+}
