@@ -1,6 +1,6 @@
 @import url("fonts/hemi-head.css");
 
-h1, h2, h3 {
+h1, h2, h3, h4, h4, h4, h4 {
 	font-family: hemi-head, sans-serif;
 }
 
@@ -37,9 +37,9 @@ display: block;
 http://www.w3cplus.com/css3/pure-css3-ribbons
 */
 #ribbon-13 {
-	width: 729px;
+	width: 733px;
 	 position: relative;
-	left: -48px;
+	left: -50px;
 	 text-align: center;
 	 font-size: 30px!important;
 	 font-weight: bold;
