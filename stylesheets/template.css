@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
@@ -53,7 +54,7 @@ body {
   font-size: 15px;
   font-family: Arial, Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  background: #D1D1D1;
+	background: url("../gfx/bottom.png") no-repeat scroll right bottom #D1D1D1;
 }
 
 a {
@@ -119,31 +120,6 @@ a.code:hover {
   filter:alpha(opacity=1);
 }
 
-a.download-button {
-  border: 1px solid black;
-  border-radius: 3px;
-  display: inline-block;
-  text-indent: 0!important;
-  width: auto;
-  float: right;
-  background: #999; /* for non-css3 browsers */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#37ADD4', endColorstr='#1B657E'); /* for IE */
-  background: -webkit-gradient(linear, left top, left bottom, from(#37ADD4), to(#1B657E)); /* for webkit browsers */
-  background: -moz-linear-gradient(top,  #37ADD4,  #1B657E); /* for firefox 3.6+ */
-  height: auto;
-  margin-left: 10px;
-}
-
-a.download-button span {
-  background-position: 10px 5px;
-  width: auto;
-  height: auto;
-  padding: 5px 10px;
-  padding-left: 45px;
-  display: inline-block;
-  text-indent: 0!important;
-  color: #fff;
-}
 
 footer {
   margin-bottom: 60px;
@@ -366,7 +342,6 @@ footer .owner p a {
 
 .markdown-body img {
   max-width: 100%;
-  @include box-sizing(border-box);
 }
 
 .highlight  { background: #ffffff; }
