@@ -6,59 +6,46 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="Nick Østergaard" />
-
   <link rel="stylesheet" href="/stylesheets/template.css" media="screen"/> <!-- CSS from github template -->
   <link rel="stylesheet" href="/stylesheets/pygment_trac.css"/>
 	<link rel="stylesheet" href="/stylesheets/fancy.css"/>
-
 	<title>OZ3RF | {{ page.title }}</title>
 </head>
-
 <body>
-
   <div class="wrapper">
     <header>
       <h1 class="title">OZ3RF</h1>
     </header>
     <div id="container">
-
-		<div id="nav">
-			<a href="/">Home</a>
-			<a href="/posts.html">Posts</a>
-			<a href="/tags.html">Tags</a>
-			<a href="/about.html">About</a>
-		</div> <!-- end #nav -->
-
+			<div id="nav">
+				<a href="/">Home</a>
+				<a href="/posts.html">Posts</a>
+				<a href="/tags.html">Tags</a>
+				<a href="/about.html">About</a>
+			</div> <!-- end #nav -->
       <div id="main" role="main">
-
 				<div class="ribbons" id="ribbon-13">
-					<h1 class="ribbon-content"><a>{{ page.title }}</a></h1>
-				</div>
-
-
+					<h1 class="ribbon-content"><a href="{{page.root}}{{page.url}}">{{ page.title }}</a></h1>
+				</div> <!-- end #ribbon-13 -->
         <article class="markdown-body">
-
-
 					{{ site.url }}
 					{{ content }}
         </article>
-      </div>
-    </div>
+			</div> <!-- end #main -->
+		</div> <!-- end #container -->
     <footer>
       <div class="owner">
-
-      <p><a href="https://github.com/nickoe" class="avatar"><img src="https://2.gravatar.com/avatar/9f9b7a9b8f602c2f5cfb80c02e570d4b?d=https%3A%2F%2Fidenticons.github.com%2F8010cb382af923400a0aa370e5761b8f.png&amp;r=x&amp;s=60" width="48" height="48"/></a>View <a href="https://github.com/nickoe">nickoe</a> on <a href="https://www.github.com">GitHub</a></p>
-
+	      <p><a href="https://github.com/nickoe" class="avatar"><img src="https://2.gravatar.com/avatar/9f9b7a9b8f602c2f5cfb80c02e570d4b?d=https%3A%2F%2Fidenticons.github.com%2F8010cb382af923400a0aa370e5761b8f.png&amp;r=x&amp;s=60" width="48" height="48"/></a>View <a href="https://github.com/nickoe">nickoe</a> on <a href="https://www.github.com">GitHub</a></p>
       </div>
       <div class="creds">
         <small>
-		&copy; 2008 - 2013 Designed by <a href="#">Nick Østergaard</a> |
-		Valid
-		<a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>,
-		<a href="http://validator.w3.org/check?uri=referer">XHTML</a>	&amp;
-		<a href="http://validator.w3.org/checklink?uri=php.snoeren.dk">LINKS</a>
-		| Site last generated: {{site.time}}
-</small>
+					&copy; 2008 - 2013 Designed by <a href="#">Nick Østergaard</a> |
+					Valid
+					<a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>,
+					<a href="http://validator.w3.org/check?uri=referer">XHTML</a>	&amp;
+					<a href="http://validator.w3.org/checklink?uri=php.snoeren.dk">LINKS</a>
+					| Site last generated: {{site.time}}
+				</small>
       </div>
     </footer>
   </div>
