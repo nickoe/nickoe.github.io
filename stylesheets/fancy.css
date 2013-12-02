@@ -1,7 +1,11 @@
 @import url("fonts/hemi-head.css");
 
-h1, h2, h3, h4, h4, h4, h4 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: hemi-head, sans-serif;
+}
+
+h1 a, h2 , h3 a, h4 a, h5 a, h6 a {
+	color: black;
 }
 
 /* Top menu */

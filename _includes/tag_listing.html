@@ -1,5 +1,6 @@
 {% for tag in site.tags %}
-  <p>site.tags:  {{ tag[0] }}</p>
+<p><a id="{{ tag[0] }}"><h3>{{ tag[0] }}</h3></a></p>
+<ul>
   {% for post in site.posts %}
 		{% if post.tags contains tag[0] %}
 		<li>
@@ -7,4 +8,5 @@
 		</li>
 		{% endif %}
 	{% endfor %}
+</ul>
 {% endfor %}
