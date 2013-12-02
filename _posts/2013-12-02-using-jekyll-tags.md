@@ -11,10 +11,11 @@ doing it. Most of what can be found is plugins that needs to be run,
 which is not run on i.e. github pages. So I wanted something built in
 in Jekyll. 
 
-On my endeavour on searching on google, I found [Josten] which did
-kind of what I needed to do. The problem with his approach was that he
-only listed the tag (which I was also able to at the time), but not
-the seperate URLs for each posting in the tag/catagory.
+On my endeavour on searching on google, I found [Sjösten] which did
+kind of what I needed to do. It motivated me, while I had almost given
+up. The problem with his approach was that he only listed the tag
+(which I was also able to at the time), but not the seperate URLs for
+each posting in the tag/catagory.
 
 I started playing around, with theese [Liquid] format thingies, but it
 was hard to get anything usefull out of that and filters. I tried
@@ -47,5 +48,5 @@ auto refresh, if it has failed in parsing Liquid code. So here one
 have to ctrl+c jekyll and start it again.
 
 [Jekyll]: http://jekyllrb.com/
-[Josten]: http://vvv.tobiassjosten.net/jekyll/jekyll-tag-cloud/
+[Sjösten]: http://vvv.tobiassjosten.net/jekyll/jekyll-tag-cloud/
 [Liquid]: http://liquidmarkup.org/
