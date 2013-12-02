@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: notes bash
 ---
 
 It could be desired to rename files that does not contain a suffix,

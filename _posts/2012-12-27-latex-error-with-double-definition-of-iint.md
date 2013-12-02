@@ -1,6 +1,7 @@
 ---
 layout: post
 title: LaTeX error with double definition of \iint
+tags: latex workaround
 ---
 Suddenly when I was trying to compile an old (not more that a few months old) document, I got the following error:
 

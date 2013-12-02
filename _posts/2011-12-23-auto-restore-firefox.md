@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: firefox tricks notes
 ---
 
 I usually shutsdown my computer with poweroff, whereby I do not have
