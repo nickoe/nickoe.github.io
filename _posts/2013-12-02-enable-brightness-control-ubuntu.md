@@ -44,7 +44,7 @@ then save and run:
 
 and then restart the system for changes to take effect.
 
-It might not be necessary to add the i`acpi_osi` option though. (Not
+It might not be necessary to add the `acpi_osi` option though. (Not
 tested.)
 
 

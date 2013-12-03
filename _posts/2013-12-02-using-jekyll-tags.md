@@ -27,17 +27,19 @@ tried to make and example for me both of them at the same time. They
 basically ended out with the same. Below is my version of that, merely
 with some more HTML added to render it like I wanted.
 
+{% include pathorcmd.html param="_include/tag_listing.html" %}
+
 {% raw %}
 	{% for tag in site.tags %}
 	<p><a id="{{ tag[0] }}"><h3>{{ tag[0] }}</h3></a></p>
 	<ul>
 	  {% for post in site.posts %}
-			{% if post.tags contains tag[0] %}
-			<li>
-				<a href="{{ post.url }}">{{ post.title }}</a>
-			</li>
-			{% endif %}
-		{% endfor %}
+	    {% if post.tags contains tag[0] %}
+	    <li>
+	      <a href="{{ post.url }}">{{ post.title }}</a>
+	    </li>
+	    {% endif %}
+	  {% endfor %}
 	</ul>
 	{% endfor %}
 {% endraw %}
