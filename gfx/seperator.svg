@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="166.52448"
+   height="4.4682345"
+   viewBox="0 0 166.52448 4.4682345"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-0.74466571,-1045.1363)"
+     id="layer1">
+    <rect
+       width="2.6819148"
+       height="2.6819148"
+       x="726.27625"
+       y="587.61035"
+       transform="matrix(0.6059135,0.79553053,-0.6059135,0.79553053,0,0)"
+       id="rect4086"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.17879432;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       d="m 77.00799,1046.3542 -76.01483932,1.024 76.01483932,0.976 1,-1 z"
+       id="path4096"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       width="1.2965254"
+       height="1.2965254"
+       x="723.98889"
+       y="591.31628"
+       transform="matrix(0.6059135,0.79553053,-0.6059135,0.79553053,0,0)"
+       id="rect4098"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.08643503;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       d="m 91.00579,1046.3542 76.01487,1.024 -76.01487,0.976 -1,-1 z"
+       id="path4102"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       width="1.2965254"
+       height="1.2965254"
+       x="585.34369"
+       y="729.96149"
+       transform="matrix(-0.6059135,0.79553053,0.6059135,0.79553053,0,0)"
+       id="rect4104"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.08643503;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+  </g>
+</svg>
