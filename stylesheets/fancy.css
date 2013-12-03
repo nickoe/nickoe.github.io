@@ -8,6 +8,11 @@ h1 a, h2 , h3 a, h4 a, h5 a, h6 a {
 	color: black;
 }
 
+/* Seperator */
+.seperator {
+	text-align:center;
+}
+
 /* Top menu */
 
 #nav a:hover {
