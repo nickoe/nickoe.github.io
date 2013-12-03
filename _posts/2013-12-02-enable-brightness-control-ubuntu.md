@@ -9,7 +9,7 @@ drivers and nvidia/intel setups.
 
 Only Nvidia
 -----------
-First of all, to enable brightness contol with a nvidia only graphics
+First of all, to enable brightness control with a nvidia only graphics
 card, it is possible to add the following option to
 `/etc/X11/xorg.conf.d` somewhere. For example if there already is one file
 named `/etc/X11/xorg.conf.d/15-nvidia.conf`. Then all you need to do
@@ -44,7 +44,7 @@ then save and run:
 
 and then restart the system for changes to take effect.
 
-It might not be nessesary to add the i`acpi_osi` option though. (Not
+It might not be necessary to add the i`acpi_osi` option though. (Not
 tested.)
 
 
