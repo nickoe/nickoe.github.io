@@ -39,8 +39,14 @@ text-align: center;
 display: block;
 }
 
-
-
+.pathorcmd pre{
+ margin:0 -20px 0 -20px;
+ border-bottom:0px;
+ padding:4px;
+ font-style:oblique;
+ font-weight:bold;
+ background-color:#4d4;
+}
 
 /* Big ribbon
 http://www.w3cplus.com/css3/pure-css3-ribbons
