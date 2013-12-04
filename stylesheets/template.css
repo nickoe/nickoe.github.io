@@ -192,6 +192,7 @@ footer .creds small {
   border-left:6px solid #4e9a06; 
 	border-right:0;
 	padding-left:6px;
+	overflow:auto;
 }
 
 .markdown-body pre.lines {
