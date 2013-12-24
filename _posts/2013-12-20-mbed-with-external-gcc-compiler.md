@@ -4,7 +4,7 @@ tags: gcc computing embedded
 ---
 
 This is a small note on how to use a [mbed.org] project and build it
-locall with gcc.
+locally with gcc.
 
 If you get the error
 

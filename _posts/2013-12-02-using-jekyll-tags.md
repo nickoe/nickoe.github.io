@@ -44,6 +44,37 @@ with some more HTML added to render it like I wanted.
 	{% endfor %}
 {% endraw %}
 
+Later on I actually found several examples doing exactly the above. But I
+extended it to include alphabetical sorting by looking at the examples at
+[alphavice], which resultet in the following. And I also realized that
+was also available on [stackoverflow].
+
+{% include pathorcmd.html param="_include/tag_listing.html # alphabetically sorted" %}
+
+{% raw %}
+	{% capture tags %}
+	  {% for tag in site.tags %}
+	    {{ tag[0] }}
+	  {% endfor %}
+	{% endcapture %}
+	{% assign sortedtags = tags | split:' ' | sort %}
+
+	{% for tag in sortedtags %}
+	<p><a id="{{ tag }}"><h3>{{ tag }}</h3></a></p>
+	<ul>
+	  {% for post in site.posts %}
+	    {% if post.tags contains tag %}
+	    <li>
+	      <a href="{{ post.url }}">{{ post.title }}</a>
+	    </li>
+	  {% endif %}
+	{% endfor %}
+	</ul>
+	{% endfor %}
+{% endraw %}
+
+
+
 ##### End Note
 When messing about with `jekyll serve --watch`, Jekyll seems to not
 auto refresh, if it has failed in parsing Liquid code. So here one
@@ -52,3 +83,5 @@ have to ctrl+c jekyll and start it again.
 [Jekyll]: http://jekyllrb.com/
 [Sjösten]: http://vvv.tobiassjosten.net/jekyll/jekyll-tag-cloud/
 [Liquid]: http://liquidmarkup.org/
+[alphavice]: http://jekyll.alphavice.com/destination/examples/2013/10/03/sorting-categories-and-tags-alphabetically.html
+[stackoverflow]: http://stackoverflow.com/questions/6387540/how-to-sort-a-hash-converted-to-an-array-in-liquid
