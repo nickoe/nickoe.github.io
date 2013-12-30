@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Including git hash in C
-tag: programming git
+tags: programming git
 ---
 
 Sometimes when generating embedded software (written in C), one often
