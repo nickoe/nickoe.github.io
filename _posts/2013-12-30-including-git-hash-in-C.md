@@ -1,5 +1,5 @@
 ---
-style: posts
+layout: post
 title: Including git hash in C
 tag: programming git
 ---
