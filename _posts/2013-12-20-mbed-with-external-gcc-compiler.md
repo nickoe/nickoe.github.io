@@ -34,7 +34,7 @@ this seems to be required to make a safe reset. See below snippet.
 		@cp $(PROJECT).bin /run/media/`whoami`/MBED/
 		@echo "Copying should be done now"
 		@echo -n "Sleeping such that the lazy liquorice is ready"
-		@sleep 1;echo -n ".";sleep 1;echo -n ".";sleep 1;echo ".";sleep 1 
+		@sleep 1;echo -n ".";sleep 1;echo -n ".";sleep 1;echo -n ".";sleep 1;echo -n ".";sleep 1;echo -n ".";sleep 1;echo ".";sleep 1
 		@echo "Resetting target"
 		@./sendbreak.py
 
