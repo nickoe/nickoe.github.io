@@ -5,7 +5,7 @@ title: Default X cursor
 ---
 
 Once upon a time I opened `lxappearence` by accident, then suddenly my default X
-cursor theme was changed to the only style I had instlaled, Adwantia,
+cursor theme was changed to the only style I had installed, Adwantia,
 and this theme is OK as such, but I really like the default X cursors.
 But it was impossible to remove an assigned style, since there was only this one style to select in `lxappearence`.
 
