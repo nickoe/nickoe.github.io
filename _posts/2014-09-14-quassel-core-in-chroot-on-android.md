@@ -14,6 +14,7 @@ Hence i write my own version of this, with the addition on how to get
 a Quassel core running. Initial testing with just one channel, it
 seems to work pretty well.
 
+## Setting up the Archlinux chroot
 First thing you need to do is to make sure your phone is rooted, then
 install [BusyBox] from google play, and optionally grab some app to
 get a sshd running, I used [SSH Server].
@@ -53,7 +54,7 @@ Noting that I also set the CPU govenor to performance and a max
 frequency of 787 MHz, anything above that seemed to freeze the device
 suddenly.
 
-# Setting up Quassel core
+## Setting up Quassel core
 Install Quassel core with `pacman -S quassel-core`. The we need to
 generate a SSL certificate.
 
@@ -70,12 +71,13 @@ To be able to run the core when you are not connected to the device
 for persistence, you need to run it ins a screen session or similar.
 That is a bit difficult. TODO describe a working method for this.
 
+## End notes and trouble shooting tips
 Leaving the chroot
 
 	exit
 	losetup -d /dev/loop1
 
-If there are problems with using the loopback device, tru creating
+If there are problems with using the loopback device, try creating
 another, e.g. `mknod /dev/loop7 b 7 7` and use `/dev/loop7` instead.
 
 [1]: http://archlinuxarm.org/forum/viewtopic.php?f=27&t=1361
