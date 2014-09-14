@@ -53,6 +53,23 @@ Noting that I also set the CPU govenor to performance and a max
 frequency of 787 MHz, anything above that seemed to freeze the device
 suddenly.
 
+# Setting up Quassel core
+Install Quassel core with `pacman -S quassel-core`. The we need to
+generate a SSL certificate.
+
+	openssl req -x509 -nodes -days 365 -newkey rsa:4096 -keyout	~/.config/quassel-irc.org/quasselCert.pem -out ~/.config/quassel-irc.org/quasselCert.pem
+
+Now we can run the quassel core.
+
+	quassel-core
+
+Then you sould connect with a quassel client, this will allow you to
+setup your user on the core.
+
+To be able to run the core when you are not connected to the device
+for persistence, you need to run it ins a screen session or similar.
+That is a bit difficult. TODO describe a working method for this.
+
 Leaving the chroot
 
 	exit
