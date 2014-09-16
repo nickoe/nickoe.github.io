@@ -52,6 +52,11 @@ Subsequently it should be enough to run theese commands.
 	mount -t proc proc /proc
 	mount -t sysfs sysfs /sys
 
+If you want to be able to run screen inside the chroot, you should
+mount `/dev/pts` from the android system.
+
+	mount -o bind /dev/pts /sdcard/arch/dev/pts
+
 Noting that I also set the CPU govenor to performance and a max
 frequency of 787 MHz, anything above that seemed to freeze the device
 suddenly.
