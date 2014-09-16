@@ -41,11 +41,13 @@ get a sshd running, I used [SSH Server].
 
 Subsequently it should be enough to run theese commands.
 
+	su
+	cd /sdcard
 	mknod /dev/loop1 b 7 0
 	losetup /dev/loop1 alarm.img
 	mount -t ext2 /dev/loop1 arch/
 	cd arch
-	mount -o bind /dev/ /sdcard/arm/dev
+	mount -o bind /dev/ /sdcard/arch/dev
 	chroot . /bin/bash
 	mount -t proc proc /proc
 	mount -t sysfs sysfs /sys
